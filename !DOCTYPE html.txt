@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Bot Solutions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Trading Bot Solutions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bots">Bots</a></li>
+                <li class="nav-item"><a class="nav-link" href="#premium">Premium</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <h1>Automate Your Trading with Ease</h1>
+        <p>High-performing trading bots designed for maximum profit and ease of use.</p>
+        <a href="#bots" class="btn btn-primary">Explore Bots</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5 text-center">
+        <h2>About Our Bots</h2>
+        <p>Our bots follow top traders, offering nearly a 100% success rate. Whether you’re a beginner or experienced trader, our bots are designed to maximize your profit while minimizing effort.</p>
+    </section>
+
+    <!-- Bots Section -->
+    <section id="bots" class="container mt-5">
+        <h2 class="text-center">Our Trading Bots</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="bot1.jpg" class="card-img-top" alt="Bot 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Bot 1</h5>
+                        <p class="card-text">Automated trading for beginners and pros. Starts at $99.</p>
+                        <a href="#" class="btn btn-primary">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more bots as needed -->
+        </div>
+    </section>
+
+    <!-- Premium Section -->
+    <section id="premium" class="premium text-center mt-5 py-5">
+        <div class="container">
+            <h2>Why Go Premium?</h2>
+            <p>Unlock full automation with premium. We handle everything from setup to tracking top traders, giving you a hands-off experience with nearly 100% success rates.</p>
+            <a href="#" class="btn btn-success">Upgrade to Premium</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5 text-center">
+        <h2>Contact & Support</h2>
+        <p>Got questions? Our team is here to help.</p>
+        <form action="#" method="post">
+            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+            <textarea class="form-control mb-3" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Trading Bot Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
